@@ -1,5 +1,5 @@
 def my_each(collection)
-  while
+  if block_given?
     yield(collection)
 end
 
