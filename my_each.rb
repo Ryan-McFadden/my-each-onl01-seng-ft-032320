@@ -1,5 +1,3 @@
-def my_each (words)
-  my_each (words) do |word|
-    puts
-  end
+def my_each(collection)
+  
 end
