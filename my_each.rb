@@ -1,12 +1,10 @@
 def my_each(collection)
   if block_given?
     i = 0
-    while i < 0 
+    while i < collection.count
       yield collection[i]
       i += 1 
     end
   end
   collection
 end
-
-my_each(collection)
