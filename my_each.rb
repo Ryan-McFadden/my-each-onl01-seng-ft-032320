@@ -1,5 +1,5 @@
-def my_each
-    yield(collection)
+def my_each(collection)
+    yield
 end
 
 my_each do |num|
