@@ -1,7 +1,8 @@
 def my_each(collection)
-  yield
+    yield(array)
+  end
 end
 
-my_each(collection) do |i|
-    puts i
-  end
+[1,2,3].my_each do |num|
+  puts "#{num}"
+end
