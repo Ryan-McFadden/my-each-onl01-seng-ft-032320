@@ -1,5 +1,5 @@
 def my_each(collection)
-  if block_given?
+  when block_given?
     yield(collection)
   end
 end
