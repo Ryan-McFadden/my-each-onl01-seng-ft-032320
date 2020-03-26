@@ -7,3 +7,7 @@ def my_each(collection)
     end
   end
 end
+
+my_each(collection) do |i|
+  puts i 
+end
