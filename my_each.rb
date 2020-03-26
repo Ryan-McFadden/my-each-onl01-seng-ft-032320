@@ -1,7 +1,7 @@
 class Array
     def my_each
         counter = 0
-        until counter == self.size
+        while counter != self.size
             # We will pass into the code block each element of the array, one by one
             yield self[counter]
             counter += 1
