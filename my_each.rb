@@ -1,6 +1,7 @@
 def my_each(collection)
  if block_given?
-   while 
+   i = 0
+   while i < 0 
     yield(collection)
     
     else
